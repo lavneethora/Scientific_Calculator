@@ -76,6 +76,7 @@ Personal Project
    - At the end of each operation, the program prompts the user to either continue with another operation or exit the program.
 
 ## Operation Menu
+
 Upon launching, the program offers different operation modes:
 - **Basic Arithmetic**
 - **Simple Trigonometric Functions**
@@ -90,6 +91,7 @@ Upon launching, the program offers different operation modes:
 - **Miscellaneous Functions**
 
 ## Examples of Operations
+
 - **Calculate the Area and Perimeter of a Square**:
   - Input the side length of the square.
   - The program will calculate and display both the area and the perimeter.
@@ -103,6 +105,7 @@ Upon launching, the program offers different operation modes:
   - The program will output the equivalent temperature in Fahrenheit.
 
 ## Program Structure
+
 - **Main Function**: It drives the flow of the program and repeatedly prompts users to select operations.
 - **Helper Functions**:
   - **Arithmetic Functions**: Handle addition, subtraction, multiplication, division.
@@ -111,6 +114,7 @@ Upon launching, the program offers different operation modes:
   - **Miscellaneous Functions**: Handle factorial, even/odd check, and prime number detection.
 
 ## Compiling and Running
+
 1. **Compile the Program**:
    ```bash
    gcc -o scientific_calculator calculator.c -lm
@@ -119,18 +123,23 @@ Upon launching, the program offers different operation modes:
    ./scientific_calculator
 
 ## Post-Execution Feedback
+
 - At the end of each session, the program asks users to rate the experience. This helps gather feedback for future improvements. I am still working on creating a function, that would put all the feedback in a .csv file.
 
 ## Conclusion
+
 - Calculator 10.0 is a comprehensive and user-friendly program designed for a wide range of mathematical and geometric operations. It is a valuable tool for students, educators, and professionals seeking quick and accurate calculations.
 
 ## License
+
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributions
+
 - Feel free to submit issues or pull requests for any improvements or bug fixes.
 
 ## Author
+
 - Lavneet Hora
 - Sophomore @ Texas Tech University
 - Computer Science
